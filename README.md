@@ -31,7 +31,7 @@ Currently, I’m deepening my skills in machine learning, full-stack development
 
 📫 How to Reach Me:  
 📧 Email: kashishbhandari09@gmail.com  
-💼 LinkedIn:  
+💼 LinkedIn:www.linkedin.com/in/kashish-bhandari-4b3183284
 
 ---
 
