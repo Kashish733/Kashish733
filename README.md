@@ -22,7 +22,7 @@ Currently, I’m deepening my skills in machine learning, full-stack development
 **Boom! – Command-Line Puzzle Game (C++)**  
 🎮 A text-based guessing game that reads from file, applies string transformations, and gives interactive feedback.  
 💡 Learnings: Class design, inheritance, file I/O, and ANSI color formatting.  
-Link: https://github.com/kashish11-ux/cse1325/tree/e01a796a66f1c7b428002850b292e56e2ae30019/P11/full_credit
+Link: https://github.com/Kashish733/cse1325_codes/tree/977f07fa8eea0e41ff3fa33d5a9a5b4ebf6ee765
 
 **Model for predicting the price of Airbnb**  
 📊 A regression-based machine learning project that predicts Airbnb listing prices using cleaned data and feature transformations.  
