@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Extract{% endblock %}
+
+{% block content %}
+<div class="form-card">
+    <h1>Extract Hidden Payload</h1>
+    <p>
+        Upload the modified stego file and enter the same S, L, and C values used during embedding.
+    </p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label for="stego">Stego File</label>
+        <input type="file" name="stego" id="stego" required>
+
+        <label for="start_bit">Start Bit (S)</label>
+        <input type="number" name="start_bit" id="start_bit" min="0" value="128" required>
+
+        <label for="period_bits">Periodicity (L)</label>
+        <input type="number" name="period_bits" id="period_bits" min="1" value="8" required>
+
+        <label for="mode">Mode (C)</label>
+        <select name="mode" id="mode">
+            <option value="fixed">fixed</option>
+            <option value="cycle81628">cycle81628</option>
+            <option value="cycle24816">cycle24816</option>
+        </select>
+
+        <button type="submit">Extract Payload</button>
+    </form>
+
+    {% if extracted_filename %}
+        <div class="result-box">
+            <p>Payload extracted successfully.</p>
+            <a class="button" href="{{ url_for('main.files', filename=extracted_filename) }}">
+                Download Extracted Payload
+            </a>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

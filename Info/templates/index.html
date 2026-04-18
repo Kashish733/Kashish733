@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Gallery{% endblock %}
+
+{% block content %}
+<h1>Steganography Gallery</h1>
+
+<p>Public posts below. Login required to submit or extract.</p>
+
+{% if posts %}
+    {% for post in posts %}
+        <div class="card">
+
+            <h2>{{ post.title }}</h2>
+
+            <p>By: {{ post.username }}</p>
+            <p>{{ post.created_at }}</p>
+
+            {% if post.carrier_filename|is_image_file %}
+                <img src="{{ url_for('main.preview_carrier', filename=post.carrier_filename) }}"
+                     style="max-width:300px;">
+            {% endif %}
+
+            <p>Payload: {{ post.payload_name }} ({{ post.payload_size }} bytes)</p>
+
+            <a class="button"
+               href="{{ url_for('main.files', filename=post.stego_filename) }}">
+               Download Stego File
+            </a>
+
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No posts yet.</p>
+{% endif %}
+
+{% endblock %}

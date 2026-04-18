@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Submit{% endblock %}
+
+{% block content %}
+<div class="form-card">
+    <h1>Submit a Steganography Post</h1>
+    <p>
+        Upload a carrier file (P), a secret payload file (M), and the parameters S, L, and C.
+    </p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label for="title">Post Title</label>
+        <input type="text" name="title" id="title" required>
+
+        <label for="carrier">Carrier File (P)</label>
+        <input type="file" name="carrier" id="carrier" required>
+
+        <label for="payload">Secret Message / Payload (M)</label>
+        <input type="file" name="payload" id="payload" required>
+
+        <label for="start_bit">Start Bit (S)</label>
+        <input type="number" name="start_bit" id="start_bit" min="0" value="128" required>
+
+        <label for="period_bits">Periodicity (L)</label>
+        <input type="number" name="period_bits" id="period_bits" min="1" value="8" required>
+
+        <label for="mode">Mode (C)</label>
+        <select name="mode" id="mode">
+            <option value="fixed">fixed</option>
+            <option value="cycle81628">cycle81628</option>
+            <option value="cycle24816">cycle24816</option>
+        </select>
+
+        <button type="submit">Embed and Post</button>
+    </form>
+</div>
+{% endblock %}
