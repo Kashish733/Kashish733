@@ -1,8 +1,8 @@
 from flask import Flask
 from pathlib import Path
-from models import init_db
-from auth import auth_bp
-from routes import main_bp
+from Info.models import init_db
+from Info.auth import auth_bp
+from Info.routes import main_bp
 
 def create_app():
     app = Flask(__name__)
