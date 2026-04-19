@@ -10,10 +10,10 @@ from flask import (
     session,
     send_from_directory,
 )
-from auth import login_required
-from models import get_db
-from steg import embed_payload, extract_payload
-from utils import (
+from Info.auth import login_required
+from Info.models import get_db
+from Info.steg import embed_payload, extract_payload
+from Info.utils import (
     ensure_upload_dirs,
     unique_filename,
     save_bytes,
