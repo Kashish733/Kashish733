@@ -1,50 +1,110 @@
-# 👋 Hi, I'm Kashish Bhandari!
+# 👋 Hi, I'm Kashish Bhandari
 
-🎓 Senior studying Computer Science | First-Gen International Student  
-🔭 Aspiring Software Engineer and Machine Learning + Sustainability Enthusiast
+🎓 Senior Computer Science student at **The University of Texas at Arlington** (GPA: **3.72/4.00**)  
+🤖 Break Through Tech AI Fellow | 💻 Full-Stack Developer | 🧠 Machine Learning Enthusiast
 
-I'm passionate about using technology to solve meaningful real-world problems — from building systems that support students to analyzing data for insights. As a first-gen international student from Nepal, I believe in resourceful learning, continuous growth, and taking initiative to build the future I want to see. (Ask me about growing my skills and leadership through the Break Through Tech AI Program at Cornell Tech!)
+I'm a first-generation international student from Nepal passionate about building AI-powered software and scalable web applications that solve real-world problems. I enjoy transforming ideas into practical solutions through machine learning, backend development, and automation.
 
-Currently, I’m deepening my skills in machine learning, full-stack development, and building tools that empower underrepresented students in tech. I’m actively seeking an internship where I can contribute to exciting projects and grow under the guidance of experienced professionals — got a lead? Let’s talk!
-
----
-
-🛠 Tech Stack:  
-**Languages**: Python, Java, C++  
-**ML & Data**: Pandas, NumPy, scikit-learn, TensorFlow  
-**Web Dev**: HTML, CSS, JavaScript, React, Node.js 
-**Tools**: Git, GitHub, VS Code, Notion, Jupyter  
+I'm currently seeking **Software Engineering, AI/ML, or Backend Engineering internships** where I can contribute to impactful projects while learning from experienced engineers.
 
 ---
 
-🚀 Projects:
+## 🚀 What I'm Interested In
 
-**Boom! – Command-Line Puzzle Game (C++)**  
-🎮 A text-based guessing game that reads from file, applies string transformations, and gives interactive feedback.  
-💡 Learnings: Class design, inheritance, file I/O, and ANSI color formatting.  
-Link: https://github.com/Kashish733/cse1325_codes/tree/977f07fa8eea0e41ff3fa33d5a9a5b4ebf6ee765
-
-**Model for predicting the price of Airbnb**  
-📊 A regression-based machine learning project that predicts Airbnb listing prices using cleaned data and feature transformations.  
-💡 Learnings: Data preprocessing, regression modeling, feature engineering, hyperparameter tuning, and model evaluation using RMSE.  
-Link: https://github.com/Kashish733/Kashish733/tree/98b8a1e7f9a4c93e6063bb2556f5e9f30b4626eb/airbnb_regression_model  
-
-**Statistics in Action – Experimental Data Analysis (Excel + Python)**  
-📉 Applied t-tests, F-tests, and chi-square tests on real-life data (like coin drop results)  
-💡 Learnings: Statistical thinking, Excel modeling, and hypothesis testing
+- 🤖 Machine Learning & Artificial Intelligence
+- 💻 Full-Stack & Backend Development
+- 🔌 APIs & Automation
+- 📊 Data Engineering & Analytics
+- ☁️ Cloud Computing
 
 ---
 
-📫 How to Reach Me:  
-📧 Email: kashishbhandari09@gmail.com  
-💼 LinkedIn:www.linkedin.com/in/kashish-bhandari-4b3183284
+## 🛠️ Tech Stack
+
+### Languages
+- Python
+- Java
+- JavaScript
+- C/C++
+- SQL
+- HTML
+- CSS
+
+### AI & Data
+- Scikit-learn
+- Pandas
+- NumPy
+- TensorFlow
+- OpenAI API
+- Prompt Engineering
+
+### Backend & Web
+- Flask
+- FastAPI
+- REST APIs
+- MySQL
+- MongoDB
+
+### Tools & Platforms
+- Git
+- GitHub
+- Docker
+- AWS
+- VS Code
+- Jupyter Notebook
 
 ---
 
-📊 GitHub Stats: Coming soon!
+# 🚀 Featured Projects
+
+## 🏥 Healthcare Analytics Platform
+A full-stack analytics platform for managing healthcare data with optimized SQL queries, dashboards, and reporting features.
+
+**Tech:** Flask • MySQL • SQL
 
 ---
 
-✨ Fun Fact:  
-A matcha latte is my favorite accessory — I love coding to Lo-Fi playlists, having thoughtful convos about tech and ethics, and constantly organizing my life in Notion to stay grounded and intentional 🌱
+## 📈 Credit Score Classification
+Built a machine learning model to classify customer credit scores, achieving **85% balanced accuracy** through feature engineering and model optimization.
 
+**Tech:** Python • Scikit-learn • Machine Learning
+
+---
+
+## 🏠 Airbnb Price Prediction
+Developed a regression model to predict Airbnb listing prices using extensive preprocessing, feature engineering, and hyperparameter tuning.
+
+**Tech:** Python • Pandas • Scikit-learn
+
+---
+
+# 💼 Experience
+
+- 💻 Website Development Intern — Tomorrow's Leaders Today
+- 🤖 Break Through Tech AI Fellow (Cornell Tech x American Express)
+- 🔧 Tech Assistant — The University of Texas at Arlington
+
+---
+
+# 🌱 Currently Learning
+
+- React
+- Node.js
+- AWS
+- System Design
+- Large Language Models (LLMs)
+- Software Engineering Best Practices
+
+---
+
+# 📫 Let's Connect
+
+📧 **Email:** bhandarikashish09@gmail.com
+
+💼 **LinkedIn:** https://www.linkedin.com/in/kashish-bhandari-4b3183284
+
+---
+
+## ⚡ Fun Fact
+
+When I'm not coding, you'll probably find me with a matcha latte, organizing everything in Notion, listening to Lo-Fi music, or exploring how technology can create meaningful social impact.
