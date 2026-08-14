@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Kashish Bhandari!
 
-🎓 Sophomore studying Computer Science | First-Gen International Student  
+🎓 Senior studying Computer Science | First-Gen International Student  
 🔭 Aspiring Software Engineer and Machine Learning + Sustainability Enthusiast
 
 I'm passionate about using technology to solve meaningful real-world problems — from building systems that support students to analyzing data for insights. As a first-gen international student from Nepal, I believe in resourceful learning, continuous growth, and taking initiative to build the future I want to see. (Ask me about growing my skills and leadership through the Break Through Tech AI Program at Cornell Tech!)
@@ -12,7 +12,7 @@ Currently, I’m deepening my skills in machine learning, full-stack development
 🛠 Tech Stack:  
 **Languages**: Python, Java, C++  
 **ML & Data**: Pandas, NumPy, scikit-learn, TensorFlow  
-**Web Dev**: HTML, CSS, JavaScript (basic) 
+**Web Dev**: HTML, CSS, JavaScript, React, Node.js 
 **Tools**: Git, GitHub, VS Code, Notion, Jupyter  
 
 ---
